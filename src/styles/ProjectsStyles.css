@@ -1,0 +1,8 @@
+.project-image {
+  width: 400px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}

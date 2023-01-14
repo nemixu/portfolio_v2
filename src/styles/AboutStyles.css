@@ -1,0 +1,11 @@
+.about-section {
+  display: flex;
+  flex-direction: row;
+  margin: 15% 15% 15% 15%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #333333;
+}
+
+span {
+  font-size: 3rem;
+}

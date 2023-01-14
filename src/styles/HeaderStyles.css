@@ -1,0 +1,10 @@
+.intro {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  margin: 25% 15% 30% 15%;
+  border-bottom: 1px solid #333333;
+}
