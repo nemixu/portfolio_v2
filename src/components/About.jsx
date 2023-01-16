@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import "../styles/AboutStyles.css";
 import { FaReact } from "react-icons/fa";
 import {
@@ -11,10 +11,21 @@ import {
   DiBootstrap,
 } from "react-icons/di";
 
+import { motion } from "framer-motion";
+
 function About() {
+  const [inView, setInView] = useState(false);
   return (
-    <section className="text-white about-section">
-      <div className="about-container">
+    <section className="text-white about-section" id="about">
+      <motion.div
+        inital={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        animate={inView ? { x: 100 } : { x: -500 }}
+        onViewportEnter={() => setInView(!inView)}
+        onViewportLeave={() => setInView(!inView)}
+        className="about-container"
+      >
         <h1 className="text-center">About Me</h1>
         <p className="text-center">
           I am a software engineer with a passion for technology and a drive to
@@ -42,7 +53,7 @@ function About() {
           <DiDjango />
           <DiBootstrap />
         </span>
-      </div>
+      </motion.div>
     </section>
   );
 }
