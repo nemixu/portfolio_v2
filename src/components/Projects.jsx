@@ -53,7 +53,10 @@ function Projects() {
   ];
 
   return (
-    <div className="projects-container text-center justify-content-center">
+    <div
+      className="projects-container text-center justify-content-center"
+      id="work"
+    >
       <h2 className="text-center text-white container-fluid">My Projects</h2>
       <div className="row">
         {projects.map((project, index) => (
