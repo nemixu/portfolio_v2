@@ -60,7 +60,7 @@ function Projects() {
       <h2 className="text-center text-white container-fluid">My Projects</h2>
       <div className="row">
         {projects.map((project, index) => (
-          <div className="text-white col-6" key={index}>
+          <div className="text-white col-sm-12 col-md-6" key={index}>
             <div className="d-flex flex-column align-items-center p-5">
               <h4>{project.title}</h4>
               <img
