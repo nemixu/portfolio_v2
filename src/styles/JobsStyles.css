@@ -1,0 +1,44 @@
+.jobs-section {
+  display: flex;
+  flex-direction: column;
+  margin: 15% 15% 15% 15%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #333333;
+}
+
+.tab-section {
+  display: inline-block;
+  color: red;
+  padding: 3px;
+  border-left: 2px solid #333333;
+  margin-right: 50px;
+}
+
+/* .tab-section:active {
+  background-color: #333333;
+} */
+
+.job-section {
+  display: inline-block;
+  color: white;
+  background-color: #333333;
+}
+
+.jobs-container {
+  float: left;
+}
+
+.job-tab {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  white-space: nowrap;
+  text-align: left;
+  border: none;
+}
+
+.jobs-text {
+  font-size: 1.3rem;
+}
