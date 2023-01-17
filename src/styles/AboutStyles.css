@@ -6,6 +6,12 @@
   border-bottom: 1px solid #333333;
 }
 
-span {
+span,
+.icons {
   font-size: 3rem;
 }
+
+/* span svg:hover {
+  color: red;
+  transform: scale(1.2);
+} */
