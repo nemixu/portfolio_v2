@@ -3,6 +3,7 @@
   display: flex;
   margin: 15% 0% 15% 0%;
   width: 700px;
+  padding-left: 50px;
   border-bottom: 1px solid #333333;
 }
 
@@ -12,6 +13,10 @@
 
 .intro-child:first-child {
   margin-right: 20px;
+}
+
+.header-container {
+  display: flex;
 }
 
 .background-image {
@@ -25,4 +30,100 @@
   height: 550px;
   border-radius: 50%;
   margin-top: 200px;
+}
+
+.totop-button {
+  cursor: pointer;
+  height: 2.1875rem;
+  width: 2.1875rem;
+  color: #fff;
+  position: fixed;
+  bottom: 0.625rem;
+  right: 25px;
+  bottom: 40px;
+  z-index: 99999;
+  transform: translateX(0px);
+  transition: right 0.5s ease-in-out;
+}
+
+/* --- Breakpoints for smaller devices --- */
+/* small  laptops*/
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .background-image {
+    left: 370px;
+    position: relative;
+  }
+  .intro-container {
+    width: auto;
+    margin: 15% 15% 15% 15%;
+  }
+
+  .intro-child:first-child {
+    margin-right: 0;
+  }
+
+  .header-container {
+    display: block;
+  }
+}
+
+/* ipad pro*/
+@media only screen and (max-device-width: 1024px) {
+  .background-image {
+    left: 260px;
+    position: relative;
+  }
+
+  .intro-container {
+    width: auto;
+    margin: 15% 15% 15% 15%;
+  }
+
+  .intro-child:first-child {
+    margin-right: 0;
+  }
+
+  .header-container {
+    display: block;
+  }
+}
+/* standard Ipad*/
+@media only screen and (max-width: 768px) {
+  .intro-container {
+    width: auto;
+    margin: 15% 15% 15% 15%;
+  }
+
+  .intro-child:first-child {
+    margin-right: 0;
+  }
+
+  .header-container {
+    display: block;
+  }
+  .background-image {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+  }
+}
+
+/* Iphone 6/7/8 SE*/
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .intro-container {
+    width: auto;
+  }
+
+  .header-container {
+    display: block;
+  }
+  .background-image {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+  }
 }
