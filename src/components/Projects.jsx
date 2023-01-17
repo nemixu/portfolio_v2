@@ -71,10 +71,10 @@ function Projects() {
               <a href={project.github}>Repository</a>
               <a href={project.deployed}>Deployed Site</a>
               <div className="tech-container d-inline-flex">
-                {project.technologies.map((e, idx) => {
+                {project.technologies.map((tech, idx) => {
                   return (
                     <p className="m-1" key={idx}>
-                      {e}
+                      {tech}
                     </p>
                   );
                 })}
