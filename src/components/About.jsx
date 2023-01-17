@@ -21,7 +21,7 @@ function About() {
         inital={{ opacity: 0, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        animate={inView ? { x: 100 } : { x: -500 }}
+        animate={inView ? { x: 0 } : { x: -500 }}
         onViewportEnter={() => setInView(!inView)}
         onViewportLeave={() => setInView(!inView)}
         className="about-container"
