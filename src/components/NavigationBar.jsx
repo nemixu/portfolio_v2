@@ -21,6 +21,16 @@ function NavigationBar() {
               <li className="nav-main-list-items px-2">
                 <a
                   className="font-weight-bold"
+                  aria-label="experience"
+                  href="#experience"
+                  id="experience-btn"
+                >
+                  Experience
+                </a>
+              </li>
+              <li className="nav-main-list-items px-2">
+                <a
+                  className="font-weight-bold"
                   aria-label="work"
                   href="#work"
                   id="work-btn"
@@ -45,7 +55,7 @@ function NavigationBar() {
                   href="#"
                   target="_blank"
                 >
-                  CV
+                  Resume
                 </a>
               </li>
             </ul>
