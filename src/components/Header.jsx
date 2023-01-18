@@ -29,8 +29,12 @@ function Header() {
       >
         <div className="intro-container">
           <div className="intro-child">
-            <h1>Hi, I'm Stephen.</h1>
-            <p>
+            <p className="hero-text-small">Hi, my name is</p>
+            <h2 className="hero-text">Stephen Seagrave.</h2>
+            <h3 className="hero-text-sub">
+              I Build things for web and mobile.
+            </h3>
+            <p className="fz-xl">
               A driven and enthusiastic software engineer based in Dublin, I am
               dedicated to staying current with the latest technologies and
               continuously improve my skills. My passion for technology is
