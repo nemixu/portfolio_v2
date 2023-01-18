@@ -19,6 +19,20 @@
   display: flex;
 }
 
+.hero-text-small {
+  color: #73ab84;
+}
+
+.hero-text {
+  font-size: clamp(40px, 8vw, 80px);
+  color: #79c7c5;
+}
+
+.hero-text-sub {
+  color: #7d9a99;
+  font-size: clamp(40px, 8vw, 80px);
+}
+
 .background-image {
   display: flex;
   flex-direction: column;
