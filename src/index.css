@@ -1,12 +1,30 @@
 body {
   margin: 0;
-  font-family: Calibre, Arial, Helvetica, sans-serif !important;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif; */
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: fit-content;
+}
+
+.fz-sm {
+  font-size: 14px;
+}
+
+.fz-md {
+  font-size: 16px;
+}
+
+.fz-lg {
+  font-size: 18px;
+}
+
+.fz-xl {
+  font-size: 20px;
+}
+
+.fz-heading {
+  font-size: 32px;
 }
 
 /* code {
@@ -16,6 +34,18 @@ body {
 
 @font-face {
   font-family: "Calibre";
-  src: local("Calibre-regular"),
+  src: local("Calibre-Regular"),
     url("./fonts/Calibre/Calibre-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre-Semibold"),
+    url("./fonts/Calibre/Calibre-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre-Medium"),
+    url("./fonts/Calibre/Calibre-Medium.ttf") format("truetype");
 }
