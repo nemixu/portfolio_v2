@@ -1,10 +1,17 @@
 body {
   margin: 0;
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
-    system-ui, sans-serif !important;
+  font-family: "Calibre", "Inter", "San Francisco", -apple-system, system-ui,
+    sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: fit-content;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb {
+  width: 12px;
+  background-color: #212733;
+  border: 3px solid #0d1017;
+  border-radius: 10px;
 }
 
 .fz-sm {
@@ -39,13 +46,58 @@ body {
 }
 
 @font-face {
-  font-family: "Calibre";
+  font-family: "Calibre-sb";
   src: local("Calibre-Semibold"),
     url("./fonts/Calibre/Calibre-Semibold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Calibre";
+  font-family: "Calibre-md";
   src: local("Calibre-Medium"),
     url("./fonts/Calibre/Calibre-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mono";
+  src: local("SFMono-Regular"),
+    url("./fonts/SFMono/SFMono-Regular.ttf") format("truetype");
+}
+
+.heading-color {
+  color: #03b5aa;
+  font-family: "Calibre", sans-serif;
+}
+
+.button-main {
+  background-color: transparent;
+  border: 1px solid #03b5aa;
+  border-radius: 3px;
+  padding: 1rem 1.35rem;
+  font-size: 14px;
+  font-family: "Mono", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+ul .button-main {
+  padding-top: 8px;
+  padding-bottom: 4px;
+  margin-top: 0;
+  font-size: 13px;
+  font-family: "Calibre", sans-serif;
+  position: relative;
+  left: 15px;
+}
+
+.button-main a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-main a:hover {
+  text-decoration: none;
+  color: #03b5aa;
 }
