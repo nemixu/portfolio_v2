@@ -2,59 +2,37 @@ import React, { useState } from "react";
 import "../styles/ContactStyles.css";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    console.log(name, email, message);
-    // todo - add functionality to actually send email to backend
-    alert("Form submitted!");
-  };
-
   return (
-    <div className="contact-form-wrapper" id="contact">
-      <form onSubmit={handleSubmit} className="text-white text-center">
-        <div className="form-group">
-          <label>
-            Name:
-            <input
-              className="form-control"
-              type="text"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </label>
+    <section id="contact" className="pt-5 mb-5">
+      <div class="container-fluid contact-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 className="heading-color fz-md text-center font-weight-bold pb-3">
+              What's Next?
+            </h2>
+            <h2 class="fz-heading text-center font-weight-bold pb-3 heading-sizing contact-heading">
+              Get In Touch
+            </h2>
+          </div>
+          <div class="col-12 text-center">
+            <p class="mx-5 text-left pb-3 intro-paragraph text-white">
+              I am always open to new opportunities in the software engineering
+              field and am eager to collaborate on exciting projects. If you
+              have a project in mind or are looking for a skilled software
+              engineer, please feel free to reach out by clicking below. I look
+              forward to hearing from you.
+            </p>
+            <a
+              rel="noopener"
+              href="mailto:s.r.seagrave@gmail.com"
+              class="button-main text-white mr-3 text-center"
+            >
+              Say Hi!
+            </a>
+          </div>
         </div>
-        <div className="form-group">
-          <label>
-            Email:
-            <input
-              className="form-control"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-        </div>
-        <div className="form-group">
-          <label>
-            Message:
-            <textarea
-              className="form-control"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </label>
-        </div>
-
-        <button className="btn btn-success " type="submit">
-          Submit
-        </button>
-      </form>
-    </div>
+      </div>
+    </section>
   );
 }
 
