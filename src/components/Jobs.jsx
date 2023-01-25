@@ -46,7 +46,9 @@ function Jobs() {
       className="jobs-section align-items-center"
     >
       <div className="jobs-container">
-        <h2 className="text-white fz-heading">Where I've Worked</h2>
+        <div className="jobs-title-container text-center">
+          <h2 className="fz-heading heading-color">Where I've Worked</h2>
+        </div>
 
         <div className="text-white inner">
           <div className="job-tab-list">
@@ -57,7 +59,7 @@ function Jobs() {
                   style={{
                     backgroundColor:
                       activeTab === i ? "#333333" : "transparent",
-                    color: activeTab === i ? "#73ab84" : "#fff",
+                    color: activeTab === i ? "#EAE0CC" : "#fff",
                   }}
                   key={i}
                   onClick={() => {
@@ -86,7 +88,7 @@ function Jobs() {
                       @ {jobs.company}
                     </span>
                   </h3>
-                  <p className="date-text">{jobs.dates}</p>
+                  <p className="date-text heading-color">{jobs.dates}</p>
                   {jobs.role.map((role, idx) => {
                     return (
                       <ul key={idx}>
