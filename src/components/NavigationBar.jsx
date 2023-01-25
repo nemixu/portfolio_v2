@@ -48,7 +48,7 @@ function NavigationBar() {
                   Contact
                 </a>
               </li>
-              <button className="btn btn-success nav-main-list-items px-2">
+              <button className="button-main nav-main-list-items px-2">
                 <a
                   className="font-weight-bold"
                   aria-label="cv"
