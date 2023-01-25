@@ -1,10 +1,10 @@
 body {
-  background-color: #232323 !important;
+  background-color: #0d1017 !important;
   overflow-x: hidden;
 }
 
 li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 0.8125rem;
 }
