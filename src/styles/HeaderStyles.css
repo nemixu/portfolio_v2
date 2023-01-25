@@ -20,16 +20,16 @@
 }
 
 .hero-text-small {
-  color: #73ab84;
+  color: #03b5aa;
 }
 
 .hero-text {
   font-size: clamp(40px, 8vw, 80px);
-  color: #79c7c5;
+  color: #eae0cc;
 }
 
 .hero-text-sub {
-  color: #7d9a99;
+  color: #58595b;
   font-size: clamp(40px, 8vw, 80px);
 }
 
