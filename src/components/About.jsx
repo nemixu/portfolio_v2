@@ -46,7 +46,7 @@ function About() {
     },
   ];
   return (
-    <section className="text-white about-section" id="about">
+    <section className="about-section" id="about">
       <motion.div
         inital={{ opacity: 0, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -56,8 +56,10 @@ function About() {
         onViewportLeave={() => setInView(!inView)}
         className="about-container"
       >
-        <h1 className="text-center fz-heading">About Me</h1>
-        <p className="text-center fz-xl">
+        <h1 className="text-center fz-heading heading-color aboutme">
+          About Me
+        </h1>
+        <p className="text-center text-white fz-xl">
           I am a software engineer with a passion for technology and a drive to
           learn and grow. I began my journey in the tech industry in mid-2021,
           after making a career change. I took on a new challenge and landed my
@@ -72,14 +74,6 @@ function About() {
           dabbling in react and would love to pursue a carrer with this
           technology.
         </p>
-        {/* <h2 className="text-center text-white">Technologies I use</h2>
-        {tech.map((techUsed, i) => (
-          <div key={i}>
-            <div>{techUsed.technology}</div>
-            <div>{techUsed.Usage}</div>
-            <techUsed.icon className="icons" />
-          </div>
-        ))} */}
       </motion.div>
     </section>
   );
