@@ -1,8 +1,8 @@
 .jobs-section {
   display: flex;
   flex-direction: column;
-  margin: 15% 15% 15% 15%;
-  padding-bottom: 5%;
+  margin: 0% 15% 15% 15%;
+  padding-bottom: 40%;
   border-bottom: 1px solid #333333;
   height: 460px;
 }
@@ -29,6 +29,10 @@
   width: 225px;
 }
 
+.jobs-title-container {
+  margin-bottom: 40px;
+}
+
 .tab-button {
   display: flex;
   align-items: center;
@@ -38,6 +42,7 @@
   border-left: 2px solid #333333;
   background-color: transparent;
   font-size: 13px;
+  font-family: "Mono", Courier, monospace;
   text-align: left;
 }
 
@@ -56,7 +61,8 @@
 }
 
 .date-text {
-  font-size: 13px;
+  font-size: 12px;
+  font-family: "Mono", Courier, monospace;
 }
 
 .role-list {
@@ -80,9 +86,9 @@ ul {
   content: "⪧";
   position: absolute;
   left: 0px;
-  color: #73ab84;
+  color: #eae0cc;
 }
 
 .highlight {
-  color: #73ab84;
+  color: #eae0cc;
 }
