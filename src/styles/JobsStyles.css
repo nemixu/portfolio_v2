@@ -92,3 +92,26 @@ ul {
 .highlight {
   color: #eae0cc;
 }
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .jobs-section {
+    padding-bottom: 55%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .job-tab-list {
+    display: flex;
+    flex-direction: initial;
+    margin-bottom: 30px;
+  }
+
+  #experience-section {
+    margin-bottom: 300px;
+  }
+}
