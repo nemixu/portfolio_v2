@@ -87,17 +87,18 @@ function Projects() {
                   </h3>
 
                   <div className="project-description">{description}</div>
-                  {project.technologies.map((tech, idx) => {
-                    return (
-                      <p
-                        className="d-inline-flex text-capitalize px-1 tech-text pt-3"
-                        key={idx}
-                      >
-                        {tech}
-                      </p>
-                    );
-                  })}
-
+                  <div className="d-inline-flex tech-container">
+                    {project.technologies.map((tech, idx) => {
+                      return (
+                        <p
+                          className="text-capitalize px-1 tech-text pt-3"
+                          key={idx}
+                        >
+                          {tech}
+                        </p>
+                      );
+                    })}
+                  </div>
                   <div className="project-links">
                     <a target="_blank" href={github}>
                       <FiGithub />
