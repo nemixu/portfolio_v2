@@ -60,6 +60,36 @@
   transition: right 0.5s ease-in-out;
 }
 
+.to-topbutton-icon {
+  color: #58595b;
+}
+
+.socials-links {
+  position: fixed;
+  left: 25px;
+  bottom: 0px;
+  z-index: 6;
+}
+
+.socials-links::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 60px;
+  margin: 0px auto;
+  background-color: #58595b;
+}
+
+.social-links-icons {
+  font-size: 1.375rem;
+  color: #58595b;
+}
+
+.social-links-icons:hover,
+.to-topbutton-icon:hover {
+  color: #03b5aa;
+}
+
 /* --- Breakpoints for smaller devices --- */
 /* small  laptops*/
 @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
@@ -78,6 +108,7 @@
 
   .header-container {
     display: block;
+    padding-bottom: 90px;
   }
 }
 
@@ -137,7 +168,7 @@
     width: 500px;
     height: 500px;
     position: relative;
-    left: 80px;
+    left: 40px;
     bottom: 100px;
   }
 }
