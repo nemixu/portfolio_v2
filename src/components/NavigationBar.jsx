@@ -22,7 +22,7 @@ function NavigationBar() {
                 <a
                   className="font-weight-bold"
                   aria-label="experience"
-                  href="#experience"
+                  href="#experience-section"
                   id="experience-btn"
                 >
                   Experience
