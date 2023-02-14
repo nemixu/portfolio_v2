@@ -34,7 +34,7 @@ function Jobs() {
   ];
   return (
     <motion.section
-      id="experience"
+      id="experience-section"
       transition={{ duration: 0.7, ease: [0, 0.71, 0.2, 1.01] }}
       animate={
         inView
@@ -53,7 +53,6 @@ function Jobs() {
         <div className="text-white inner">
           <div className="job-tab-list">
             {myJobs.map((job, i) => {
-              console.log(job, i);
               return (
                 <div
                   style={{
