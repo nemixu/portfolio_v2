@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/HeaderStyles.css";
 import { motion } from "framer-motion";
 import { BiUpArrowCircle } from "react-icons/bi";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -60,10 +61,36 @@ function Header() {
           aria-label="to top button"
           onClick={toTop}
         >
-          <span>
+          <span className="to-topbutton-icon">
             <BiUpArrowCircle />
           </span>
         </a>
+      </motion.div>
+      <motion.div
+        className="socials-links text-white"
+        initial={{ opacity: 0 }}
+        animate={show ? { opacity: 1, x: [-500, -100, 1] } : { opacity: 0 }}
+      >
+        <ul>
+          <li>
+            <a
+              className="social-links-icons"
+              href="https://www.linkedin.com/in/steseagrave/"
+              target="_blank"
+            >
+              <AiFillLinkedin />
+            </a>
+          </li>
+          <li>
+            <a
+              className="social-links-icons"
+              href="https://github.com/nemixu"
+              target="_blank"
+            >
+              <AiFillGithub />
+            </a>
+          </li>
+        </ul>
       </motion.div>
     </>
   );
