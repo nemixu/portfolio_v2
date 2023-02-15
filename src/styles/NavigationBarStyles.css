@@ -20,7 +20,7 @@
   flex-direction: row;
   justify-content: center;
   background-color: #0d1017;
-  z-index: 3;
+  z-index: 10;
 }
 
 li a:hover {
