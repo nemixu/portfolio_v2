@@ -11,7 +11,7 @@
   -webkit-box-align: center;
   align-items: center;
   position: relative;
-  margin: 10px 0px 40px;
+  margin: 0.625rem 0px 2.5rem;
   width: 100%;
   white-space: nowrap;
   justify-content: center;
@@ -21,9 +21,9 @@
   display: block;
   position: relative;
   top: -5px;
-  width: 30px;
+  width: 1.875rem;
   height: 1px;
-  margin-left: 20px;
+  margin-left: 1.25rem;
   background-color: #333333;
 }
 
@@ -32,11 +32,11 @@
   display: block;
   position: relative;
   top: -5px;
-  width: 30px;
+  width: 1.875rem;
   height: 1px;
   margin-left: 0px;
   background-color: #333333;
-  margin-right: 13px;
+  margin-right: 0.8125rem;
 }
 
 /* Small laptops */

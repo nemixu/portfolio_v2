@@ -12,36 +12,31 @@ body {
 }
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-thumb {
-  width: 12px;
+  width: 0.75rem;
   background-color: #212733;
   border: 3px solid #0d1017;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .fz-sm {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .fz-md {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .fz-lg {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .fz-xl {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .fz-heading {
-  font-size: 32px;
+  font-size: 2rem;
 }
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
 
 @font-face {
   font-family: "Calibre";
@@ -77,23 +72,23 @@ body {
   border: 1px solid #03b5aa;
   border-radius: 3px;
   padding: 1rem 1.35rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Mono", sans-serif;
   font-weight: 500;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 ul .button-main {
   padding-top: 8px;
   padding-bottom: 4px;
   margin-top: 0;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-family: "Calibre", sans-serif;
   position: relative;
-  left: 15px;
+  left: 0.9375rem;
 }
 
 .button-main a {

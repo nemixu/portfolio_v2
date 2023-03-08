@@ -48,10 +48,12 @@ function About() {
   return (
     <section className="about-section" id="about">
       <motion.div
-        inital={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5, ease: "easeInOut" }}
-        animate={inView ? { x: 0 } : { x: -500 }}
+        transition={{ duration: 0.7, ease: [0, 0.71, 0.2, 1.01] }}
+        animate={
+          inView
+            ? { scale: [0, 0, 1], opacity: 1 }
+            : { scale: [0, 0, 0], opacity: 0 }
+        }
         onViewportEnter={() => setInView(!inView)}
         onViewportLeave={() => setInView(!inView)}
         className="about-container"

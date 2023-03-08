@@ -2,8 +2,8 @@
   color: #fff;
   display: flex;
   margin: 15% 0% 15% 0%;
-  width: 700px;
-  padding-left: 50px;
+  width: 43.75rem;
+  padding-left: 3.125rem;
   border-bottom: 1px solid #333333;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .intro-child:first-child {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .header-container {
@@ -24,13 +24,13 @@
 }
 
 .hero-text {
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: clamp(2.5rem, 8vw, 5rem);
   color: #eae0cc;
 }
 
 .hero-text-sub {
   color: #58595b;
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: clamp(2.5rem, 8vw, 5rem);
 }
 
 .background-image {
@@ -39,11 +39,11 @@
   background-image: url("../images/stevo2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 550px;
-  background-position-y: -76px;
-  height: 550px;
+  width: 34.375rem;
+  background-position-y: -4.75rem;
+  height: 34.375rem;
   border-radius: 50%;
-  margin-top: 200px;
+  margin-top: 12.5rem;
 }
 
 .totop-button {
@@ -53,8 +53,8 @@
   color: #fff;
   position: fixed;
   bottom: 0.625rem;
-  right: 25px;
-  bottom: 40px;
+  right: 1.5625rem;
+  bottom: 2.5rem;
   z-index: 99999;
   transform: translateX(0px);
   transition: right 0.5s ease-in-out;
@@ -66,7 +66,7 @@
 
 .socials-links {
   position: fixed;
-  left: 25px;
+  left: 1.5625rem;
   bottom: 0px;
   z-index: 6;
 }
@@ -75,7 +75,7 @@
   content: "";
   display: block;
   width: 1px;
-  height: 60px;
+  height: 3.75rem;
   margin: 0px auto;
   background-color: #58595b;
 }
@@ -94,7 +94,7 @@
 /* small  laptops*/
 @media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
   .background-image {
-    left: 370px;
+    left: 23.125rem;
     position: relative;
   }
   .intro-container {
@@ -108,14 +108,14 @@
 
   .header-container {
     display: block;
-    padding-bottom: 90px;
+    padding-bottom: 5.625rem;
   }
 }
 
 /* ipad pro*/
 @media only screen and (max-device-width: 1024px) {
   .background-image {
-    left: 260px;
+    left: 16.25rem;
     position: relative;
   }
 
@@ -147,11 +147,11 @@
     display: block;
   }
   .background-image {
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
     position: relative;
-    left: 140px;
-    bottom: 100px;
+    left: 8.75rem;
+    bottom: 6.25rem;
   }
 }
 
@@ -165,10 +165,10 @@
     display: block;
   }
   .background-image {
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
     position: relative;
-    left: 40px;
-    bottom: 100px;
+    left: 2.5rem;
+    bottom: 6.25rem;
   }
 }
