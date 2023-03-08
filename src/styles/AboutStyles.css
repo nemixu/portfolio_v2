@@ -38,3 +38,31 @@
   background-color: #333333;
   margin-right: 13px;
 }
+
+/* Small laptops */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .about-section {
+    margin: 0 20% 15% 20%;
+  }
+}
+
+/* Ipad pro */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about-section {
+    margin: 0 15% 15% 15%;
+  }
+}
+
+/* Ipad 1 /2*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
+  .about-section {
+    margin: 0 15% 15% 15%;
+  }
+}
+
+/* Mobiles */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .about-section {
+    margin: 0 15% 15% 15%;
+  }
+}
