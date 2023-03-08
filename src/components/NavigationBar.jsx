@@ -52,7 +52,7 @@ function NavigationBar() {
                 <a
                   className="font-weight-bold"
                   aria-label="cv"
-                  href="#"
+                  href="https://stevo-portfolio.s3.eu-west-1.amazonaws.com/static/files/sseagrave_cv.pdf"
                   target="_blank"
                 >
                   Resume
