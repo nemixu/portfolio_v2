@@ -46,6 +46,10 @@
   text-align: left;
 }
 
+.tab-button:hover {
+  cursor: pointer;
+}
+
 /* right side panel styling*/
 .job-tab-pannel {
   width: 100%;
