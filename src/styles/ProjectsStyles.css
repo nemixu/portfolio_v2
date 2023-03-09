@@ -103,7 +103,7 @@
 }
 
 .tech-text {
-  color: #58595b;
+  color: #7c7d7e;
   font-family: "Mono", Courier, monospace;
   font-size: 0.75rem;
 }
@@ -210,7 +210,7 @@
     opacity: 0.9;
   }
   .tech-text {
-    color: #eae0cc;
+    color: #7c7d7e;
   }
 
   .img {
@@ -268,7 +268,7 @@
     opacity: 0.9;
   }
   .tech-text {
-    color: #eae0cc;
+    color: #7c7d7e;
   }
 
   .img {

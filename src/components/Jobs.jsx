@@ -51,7 +51,7 @@ function Jobs() {
         </div>
 
         <div className="text-white inner">
-          <div className="job-tab-list">
+          <div className="job-tab-list" role="toolbar">
             {myJobs.map((job, i) => {
               return (
                 <div
@@ -65,7 +65,7 @@ function Jobs() {
                     setActiveTab(i);
                   }}
                   className="tab-button"
-                  role="tab"
+                  role="button"
                 >
                   {job.company}
                 </div>

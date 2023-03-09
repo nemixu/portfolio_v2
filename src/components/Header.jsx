@@ -52,16 +52,18 @@ function Header() {
         ></motion.div>
       </motion.div>
       <motion.div
+        role="toolbar"
         className="totop-button"
         initial={{ opacity: 0 }}
         animate={show ? { opacity: 1, x: [500, 100, 0.5] } : { opacity: 0 }}
       >
         <a
+          role="button"
           className="d-flex h-100 text-white"
-          aria-label="to top button"
+          aria-label="To Top"
           onClick={toTop}
         >
-          <span className="to-topbutton-icon">
+          <span className="to-topbutton-icon" aria-hidden="true">
             <BiUpArrowCircle />
           </span>
         </a>
@@ -77,6 +79,7 @@ function Header() {
               className="social-links-icons"
               href="https://www.linkedin.com/in/steseagrave/"
               target="_blank"
+              aria-label="Link to stephens linkedin profile"
             >
               <AiFillLinkedin />
             </a>
@@ -86,6 +89,7 @@ function Header() {
               className="social-links-icons"
               href="https://github.com/nemixu"
               target="_blank"
+              aria-label="Link to stephens github profile"
             >
               <AiFillGithub />
             </a>

@@ -100,10 +100,18 @@ function Projects() {
                     })}
                   </div>
                   <div className="project-links">
-                    <a target="_blank" href={github}>
+                    <a
+                      target="_blank"
+                      href={github}
+                      aria-label="Visit the github page for this project"
+                    >
                       <FiGithub />
                     </a>
-                    <a target="_blank" href={deployed}>
+                    <a
+                      target="_blank"
+                      href={deployed}
+                      aria-label="Visit the deployed page for this project"
+                    >
                       <IoMdOpen />
                     </a>
                   </div>
@@ -111,7 +119,11 @@ function Projects() {
               </div>
 
               <div className="project-image">
-                <img className="img" src={image} />
+                <img
+                  className="img"
+                  src={image}
+                  alt={`project image ${index}`}
+                />
               </div>
             </li>
           );
