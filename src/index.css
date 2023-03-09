@@ -63,13 +63,13 @@ body {
 }
 
 .heading-color {
-  color: #03b5aa;
+  color: #00916e;
   font-family: "Calibre", sans-serif;
 }
 
 .button-main {
   background-color: transparent;
-  border: 1px solid #03b5aa;
+  border: 1px solid #00916e;
   border-radius: 3px;
   padding: 1rem 1.35rem;
   font-size: 0.875rem;
@@ -98,7 +98,7 @@ ul .button-main {
 
 .button-main a:hover {
   text-decoration: none;
-  color: #03b5aa;
+  color: #00916e;
 }
 
 span svg {

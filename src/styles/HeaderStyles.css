@@ -20,7 +20,7 @@
 }
 
 .hero-text-small {
-  color: #03b5aa;
+  color: #00916e;
 }
 
 .hero-text {
@@ -87,7 +87,7 @@
 
 .social-links-icons:hover,
 .to-topbutton-icon:hover {
-  color: #03b5aa;
+  color: #00916e;
 }
 
 /* --- Breakpoints for smaller devices --- */

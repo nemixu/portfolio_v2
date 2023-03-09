@@ -7,9 +7,6 @@ function Contact() {
       <div className="container-fluid contact-container">
         <div className="row">
           <div className="col-12">
-            <h2 className="heading-color fz-md text-center font-weight-bold pb-3">
-              What's Next?
-            </h2>
             <h2 className="fz-heading text-center font-weight-bold pb-3 heading-sizing contact-heading">
               Get In Touch
             </h2>
